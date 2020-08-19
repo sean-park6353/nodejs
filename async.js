@@ -1,8 +1,7 @@
 async function f() {
 
     let promise = new Promise((resolve, reject) => {
-        setTimeout(() => resolve("done!"), 1000)
-
+        setTimeout(() => resolve(333), 1000)
     });
 
     console.log(1);
