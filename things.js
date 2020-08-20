@@ -4,6 +4,7 @@ var router = express.Router()
 
 
 router.get('/', (req, res) => {
+    console.log(`2번 ${Date.now()}`);
     res.send('GET route on things')
 })
 router.post('/', (req, res) => {
